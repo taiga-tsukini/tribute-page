@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column; /* Setzt die Ausrichtung auf vertikal */
     margin-top: 130px;
-    padding-top: 70px;
+    padding-top: 85px;
 }
 
 h1 {
@@ -27,9 +27,11 @@ h1 {
 
 h2 {
     font-size: 20px;
-    color:aquamarine
+    color:aquamarine;
+    
 }
 
 p {
     font-size: 16px;
+    margin-top: 1px;
 }

@@ -5,6 +5,21 @@ body {
     
 }
 
+.container {
+    display: flex;
+}
+
+.container img {
+    margin-right: 30px; /* Etwas Abstand zwischen dem Bild und dem Text */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Setzt die Ausrichtung auf vertikal */
+    margin-top: 130px;
+    padding-top: 70px;
+}
+
 h1 {
     color: #81f627;
     font-family:'Montserrat', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif

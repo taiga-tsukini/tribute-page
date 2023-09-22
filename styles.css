@@ -31,7 +31,7 @@ img {
     max-width: 700px;
     max-height: 1200px;
     border-style: solid;
-   margin: 20px 350px 30px 360px;
+    margin: 20px 350px 30px 360px;
     border-color: #fb8500;
     background-color: #14213d;
     padding: 10px;
@@ -43,7 +43,17 @@ img {
     border-style: solid;
    margin: 20px 350px 10px 360px;
     border-color: #fb8500;
-    background-color: #63183a;
+    background-color: #280b36;
+    padding: 10px;
+  }
+
+  .frame3{
+    max-width: 700px;
+    max-height: 1200px;
+    border-style: solid;
+   margin: 20px 350px 10px 360px;
+    border-color: #fb8500;
+    background-color: #210b51;
     padding: 10px;
   }
 
@@ -61,7 +71,7 @@ h1 {
 }
 
 
-h2, h3 {
+h2, h3, h4 {
     font-size: 20px;
     font-weight: bold;
     color:#ffb703;

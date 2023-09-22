@@ -26,16 +26,21 @@ img {
 }
 
 .frame1{
+    align-items: center;
+    max-width: 700px;
+    max-height: 600px;
     border-style: solid;
-   margin: 10px 15px 10px 15px;
+   margin: 20px 350px 10px 350px;
     border-color: #fb8500;
     background-color: #14213d;
     padding: 10px;
   }
 
   .frame2{
+    max-width: 700px;
+    max-height: 600px;
     border-style: solid;
-   margin: 10px 15px 10px 15px;
+   margin: 20px 350px 10px 350px;
     border-color: #fb8500;
     background-color: #63183a;
     padding: 10px;
@@ -62,10 +67,4 @@ h3 {
 p {
     font-size: 16px;
     margin-top: 1px;
-}
-h4 {
-    font-weight: normal;
-    font-size: 16px;
-    margin-top: 1px;
-    margin-left: 20px;
 }

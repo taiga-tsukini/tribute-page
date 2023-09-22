@@ -7,7 +7,8 @@ body {
 
 img {
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -21,16 +22,16 @@ img {
 .text-container {
     display: flex;
     flex-direction: column; /* Setzt die Ausrichtung auf vertikal */
-    margin-top: 130px;
+    margin-top: 125px;
     padding-top: 85px;
 }
 
 .frame1{
     align-items: center;
     max-width: 700px;
-    max-height: 600px;
+    max-height: 1200px;
     border-style: solid;
-   margin: 20px 350px 10px 350px;
+   margin: 20px 350px 30px 360px;
     border-color: #fb8500;
     background-color: #14213d;
     padding: 10px;
@@ -38,12 +39,16 @@ img {
 
   .frame2{
     max-width: 700px;
-    max-height: 600px;
+    max-height: 1200px;
     border-style: solid;
-   margin: 20px 350px 10px 350px;
+   margin: 20px 350px 10px 360px;
     border-color: #fb8500;
     background-color: #63183a;
     padding: 10px;
+  }
+
+  .col-md-6 {
+    margin-top: 30px;
   }
 
 
@@ -51,11 +56,14 @@ h1 {
     color: #fb8500;
     font-family:'Montserrat', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
 }
 
 
 h2, h3 {
     font-size: 20px;
+    font-weight: bold;
     color:#ffb703;
     
 }
@@ -67,5 +75,5 @@ h3 {
 
 p {
     font-size: 16px;
-    margin-top: 1px;
+    
 }
